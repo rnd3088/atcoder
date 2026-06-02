@@ -1,4 +1,4 @@
-# https://atcoder.jp/contests/abc460/tasks/abc460_a
+PROBLEM_URL = https://atcoder.jp/contests/abc460/tasks/abc460_a
 
 N, M = map(int, input().split())
 
