@@ -21,7 +21,7 @@ class Fenwick:
 
 N, Q = map(int, input().split())
 
-MAX = Q + 5
+MAX = Q + 1
 
 raw = [0] * N
 fw = Fenwick(MAX)
@@ -38,11 +38,10 @@ for _ in range(Q):
         x = v - 1
 
         old = raw[x]
-        new = old + 1
-        raw[x] = new
+        raw[x] = old + 1
 
         fw.add(old, -1)
-        fw.add(new, 1)
+        fw.add(raw[x], 1)
 
         if fw.sum(base) - fw.sum(base - 1) == 0:
             base += 1
