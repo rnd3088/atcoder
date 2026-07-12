@@ -1,10 +1,10 @@
 # ABC457
 
-## A - Dice
+## A - Array
 https://atcoder.jp/contests/abc457/tasks/abc457_a
 
-## B - 456
+## B - Arrays
 https://atcoder.jp/contests/abc457/tasks/abc457_b
 
-## C - Not Adjacent
+## C - Long Sequence
 https://atcoder.jp/contests/abc457/tasks/abc457_c
